@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "porsche";
+  font-weight: 400;
+  font-style: normal;
+  src: url(../assets/fonts/PorscheNext-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "porsche";
+  font-weight: 700;
+  font-style: normal;
+  src: url(../assets/fonts/porsche-next-bold.otf) format("opentype");
+}
+
+body,
+button,
+label {
+  font-family: "porsche";
+}

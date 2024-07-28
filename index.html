@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
     <title>Document</title>
   </head>
   <body>
+    <!----------------------------- Header ----------------------------->
     <header class="container">
       <div class="menu">
         <img
@@ -41,5 +43,29 @@
         />
       </div>
     </header>
+
+    <!--------------------------- Title --------------------------------------->
+    <section class="title container">
+      <div class="title__text">
+        <div class="title__text__above">
+          <img
+            src="./assets/images/reshot-icon-left-arrow-VCGUT7EKR3.svg"
+            alt="left arrow"
+          />
+          <p class="title__text__above__short">Zurück</p>
+          <p class="title__text__above__long">
+            Zurück zur Modellreihen-Auswahl
+          </p>
+        </div>
+        <h1>Wählen Sie Ihren Traum Porsche</h1>
+      </div>
+      <form>
+        <label for="search">Vorhandene Konfiguration öffnen</label>
+        <div class="form__search__container">
+          <input type="text" placeholder="Porsche Code eingeben" />
+          <button type="submit">Konfiguration öffnen</button>
+        </div>
+      </form>
+    </section>
   </body>
 </html>
