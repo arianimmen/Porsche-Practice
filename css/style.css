@@ -322,9 +322,9 @@ form {
 
 /* ---------------------------------- Main Section ---------------------------------- */
 
-.main__filter{
+.main__filter {
   position: sticky;
-  top:0.7rem;
+  top: 0.7rem;
   z-index: 200;
 }
 
@@ -384,6 +384,7 @@ form {
 }
 
 .card-section__card {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   position: relative;
