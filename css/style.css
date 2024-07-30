@@ -963,3 +963,132 @@ form {
     cursor: pointer;
   }
 }
+
+/* ------------------------------- Footer --------------------------------------- */
+
+.footer .max--width {
+  max-width: 1650px;
+}
+
+.footer {
+  background-color: var(--color-001-black);
+  color: white;
+}
+
+.footer__head {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer h2 {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.footer__head img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.footer__head__flag-section {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+
+.footer__head a {
+  font-size: 0.7rem;
+  text-decoration: underline;
+  margin-left: 2rem;
+  padding: 0.25rem;
+  border-radius: 4px;
+  color: white;
+}
+
+.footer__head a:hover {
+  background-color: rgba(57, 57, 57, 0.756);
+  transition: all 0.5s;
+}
+
+.footer__main__row1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.footer__main__row1__item {
+  margin-bottom: 2rem;
+}
+
+.footer__main__row1__item h2 {
+  margin-bottom: 0.5rem;
+}
+
+.footer__main__row1__item p {
+  margin-bottom: 1.5rem;
+}
+
+.footer__main__row1__item button {
+  width: 100%;
+  height: 3rem;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.social-media-icons img {
+  width: 47px;
+  height: 47px;
+  padding: 0.7rem;
+  background-color: white;
+  border-radius: 4px;
+  margin: 0rem 0.3rem 0.5rem 0rem;
+}
+
+.footer__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.footer__footer p {
+  margin-bottom: 1rem;
+}
+
+.footer__footer img {
+  width: 150px;
+  align-self: center;
+  margin-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.footer button:hover{
+  cursor: pointer;
+}
+
+@media screen and (min-width: 760px) {
+  .footer__main__row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+  }
+
+  .footer__main__row1__item {
+    margin-right: 2rem;
+  }
+
+  .footer__main__row1__item button {
+    width: 293px;
+    height: 3rem;
+  }
+}
